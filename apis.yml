@@ -1,7 +1,15 @@
 aid: fintor
 name: Fintor
-description: Fintor is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fintor is an enterprise software company that provides an agentic AI workforce
+  for mortgage lending operations. Its purpose-built, autonomous AI agents execute mortgage
+  workflows end to end - from application through closing - with human-in-the-loop oversight,
+  integrating with existing loan origination systems (LOS), CRMs, and contact centers
+  rather than replacing them. Product modules include a Loan Officer Assistant (document
+  intake, borrower communication, gap analysis), a Processor Assistant (third-party orders,
+  condition tracking, disclosures), Predictive Conditioning, a Closing Agent, and a Manager
+  Assistant for forecasting and reporting. Fintor ships pre-built connectors for Encompass,
+  Salesforce, Five9, Polly, and Blend, exposes documented API integrations, and is SOC 2
+  Type II certified with encryption, RBAC, approval chains, and audit logging.
 url: https://raw.githubusercontent.com/api-evangelist/fintor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mortgage
+- Lending
+- Financial Services
+- Artificial Intelligence
+- AI Agents
+- Automation
+- Loan Origination
+- Fintech
+image: https://fintor.com/images/Preview-dark3.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://fintor.com
+- type: About
+  url: https://www.fintor.com/about
+- type: Support
+  url: https://www.fintor.com/help-center
+- type: Blog
+  url: https://www.fintor.com/blog
+- type: Careers
+  url: https://www.fintor.com/careers
+- type: TermsOfService
+  url: https://www.fintor.com/terms
+- type: PrivacyPolicy
+  url: https://www.fintor.com/privacy
+- type: TrustCenter
+  url: security/fintor-trust-center.yml
+- type: Compliance
+  url: https://trust.fintor.com
+- type: DomainSecurity
+  url: security/fintor-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

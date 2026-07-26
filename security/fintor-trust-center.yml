@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.fintor.com/
+url: https://trust.fintor.com/
+certifications:
+- SOC 2 Type II
+evidence:
+- source: https://trust.fintor.com/
+  keywords:
+  - soc 2
+  - soc2
+  - trust center
+- source: https://www.fintor.com/
+  keywords:
+  - soc 2 type ii certified
