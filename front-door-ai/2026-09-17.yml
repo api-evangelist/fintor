@@ -1,0 +1,30 @@
+# Front Door AI Index — fintor — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: fintor
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: fintor.com
+  final_host: www.fintor.com
+  ownership: own
+  owner: fintor
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 32.66
+  words: 643
+  tiers:
+    agentic: 8
+    core: 13
+    model: 0
+  ambiguous: 12
+  top_terms:
+    AI: 13
+    agent: 8
+    AI agent: 6
+    automation: 3
+    agentic: 2
+    predictive: 1
