@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "fintor",
+    "captured_at": "2026-10-11T185037",
+    "source_url": "https://fintor.com",
+    "source_type": "Website",
+    "file": "fintor-2026-10-11T185037.png",
+    "bytes": 102691,
+    "capture": "playwright-local"
+  }
+]
